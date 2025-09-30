@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start:task:1": "node task_1/index.js",
+    "start:task:2": "node task_2/index.js",
+    "start:task:3": "node task_3/index.js",
+    "start:task:4": "node task_4/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:task:1": "npm run test -- task_1",
+    "test:task:2": "npm run test -- task_2",
+    "test:task:3": "npm run test -- task_3",
+    "test:task:4": "npm run test -- task_4"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.27.1",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0"
+  }
+}
