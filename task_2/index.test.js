@@ -20,6 +20,13 @@ describe("Базові тести", () => {
       sortBy: ["email"],
     });
 
+    expect(result).toHaveProperty("result");
+    expect(Array.isArray(result.result)).toBe(true);
+
+    result.result.forEach((item) => {
+      expect(item).toBeInstanceOf(Object);
+    });
+
     expect(result).toStrictEqual({
       result: [
         { name: "John", email: "john1@mail.com" },
