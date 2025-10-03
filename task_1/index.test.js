@@ -3,9 +3,7 @@ const data = {
     unit: "m",
     value: 0.5,
   },
-  convertTo: {
-    unit: "ft",
-  },
+  convertTo: "ft",
 };
 
 let functions = require("./index.js");
