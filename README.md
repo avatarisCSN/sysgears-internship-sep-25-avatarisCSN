@@ -4,7 +4,7 @@
 
 **ВАЖЛИВО:**
 
-Умови завдань можна скачати за [посиланню](https://drive.google.com/file/d/1nJV-QCWkrlzKmVlBeroe11XqpYpThheG/view?usp=sharing)
+Умови завдань можна скачати за [посиланню](https://drive.google.com/file/d/1nJV-QCWkrlzKmVlBeroe11XqpYpThheG/view)
 
 Усі завдання повинні виконуватися лише у цьому репозиторії та у відповідних папках.  
 У цьому репозиторії автоматично створено pull request із назвою _Feedback_, який буде використовуватися для перевірки завдань. Кожен коміт у гілку **main** автоматично додається до цього pull request.
