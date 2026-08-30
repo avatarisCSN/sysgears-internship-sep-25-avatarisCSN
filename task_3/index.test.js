@@ -42,7 +42,8 @@ function expectProbes(probes) {
 
 describe("Базові тести", () => {
   it("Вихідні дані відповідають умовам завдання і повертаються в правильному форматі", () => {
-    const result = functions.findAsteroidLocation();
+    const asteroidLoc = functions.generateAsteroidLocation();
+    const result = functions.findAsteroidLocation(asteroidLoc);
 
     expect(result).toHaveProperty("result");
 
